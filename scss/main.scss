@@ -1,3 +1,27 @@
-body {
-  background-color: magenta;
+.modal-header {
+  h4 {
+    text-align: center;
+  }
+}
+
+.modal-body {
+  h1, p {
+    text-align: center;
+  }
+}
+
+.btn-info {
+  padding: 2%;
+}
+
+.modal-footer {
+  h5, p {
+    text-align: center;
+  }
+}
+
+.modal-footer {
+  h5 {
+    text-decoration: underline;
+  }
 }
