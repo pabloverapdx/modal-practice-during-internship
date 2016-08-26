@@ -1,12 +1,20 @@
-.modal-header {
-  h4 {
+.modal-body {
+  p {
     text-align: center;
+    font-family: "museo-sans",sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 17px;
   }
 }
 
 .modal-body {
-  h1, p {
+  h1 {
     text-align: center;
+    font-family: "museo-slab",sans-serif;
+    font-weight: 700;
+    font-size : 38px;
+    line-height : 53px;
   }
 }
 
@@ -24,4 +32,23 @@
   h5 {
     text-decoration: underline;
   }
+}
+ .col-xs-2 {
+   width: 25%;
+ }
+
+ .subscribe {
+   margin-top: 3vh;
+   width: 70%;
+   background-color: #478BA0;
+   border-radius: 10px;
+   height: 74px;
+ }
+
+.enter-email-box {
+  width: 65%;
+}
+
+.input-lg {
+  background-color: #ECECEC;
 }

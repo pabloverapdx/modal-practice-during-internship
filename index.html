@@ -7,6 +7,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </script>
     <script src="js/scripts.js"></script>
+    <!-- typekit fonts -->
+    <script src="https://use.typekit.net/lzf4ukn.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     <title>Modal</title>
   </head>
   <body>
@@ -20,17 +24,36 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
             <h4 class="modal-title" id="myModalLabel">Trackers Earth Logo</h4>
           </div>
           <div class="modal-body">
-            <p>Get updates about outdoor skills and classes and other things</p>
+            <p>Get updates about outdoor skills and classes.</p>
             <h1>LEARN MORE</h1>
-            <div class="form-group">
-              <!-- <label for="exampleInputEmail1">Email address</label> -->
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address Here">
+
+            <div class="form-group enter-email-box center-block">
+              <input type="email" class="form-control input-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address Here">
             </div>
-            <button type="button" class="btn btn-info center-block" data-dismiss="modal">SUBSCRIBE TO THE NEWSLETTER.</button>
+
+            <!-- Checkboxes  -->
+            <div class="row checkbox-row">
+            <div class="col-xs-2 col-xs-offset-3">
+              <div class="checkbox-inline">
+                <label class="checkbox-inline">
+                  <input type="checkbox" value="">Adult News</label>
+              </div>
+            </div>
+            <div class="row checkbox-row">
+              <div class="col-xs-2">
+                <div class="checkbox-inline">
+                  <label class="checkbox-inline">
+                    <input type="checkbox" value="">Youth News</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <button type="button" class=" subscribe btn btn-info center-block" data-dismiss="modal">SUBSCRIBE TO THE NEWSLETTER.</button>
           </div>
           <div class="modal-footer">
             <h5>No thanks. I'm not interested!</h5>
