@@ -1,5 +1,5 @@
-.modal-header h4 {
-  text-align: center; }
+.modal-title {
+  max-width: 30%; }
 
 .modal-body p {
   text-align: center;
