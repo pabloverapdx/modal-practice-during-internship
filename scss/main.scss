@@ -1,13 +1,8 @@
-#myModal .modal-dialog {
-  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    width: 90%;
-    height: auto;
-  }
+.modal-title {
+  margin-top: -15px;
+ max-width: 14%;
 }
 
-.modal-title {
-  max-width: 30%;
-}
 .modal-body {
   p {
     text-align: center;
@@ -88,4 +83,12 @@
    font-family: "museo-sans",sans-serif;
    font-weight: 300;
    font-size : 12px;
+ }
+
+ // Media Query
+ #myModal .modal-dialog {
+   @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+     width: 90%;
+     height: auto;
+   }
  }
